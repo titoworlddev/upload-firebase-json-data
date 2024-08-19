@@ -9,4 +9,6 @@ You have to download a file with a structure like the "key_service_account.templ
 
 Once this is done, you put the file in your project renaming it with the name "key_service_account.json".
 
-Finally, rename the "data.template.jsonc" file to "data.json", fill it with the data you want to load and run the project with "npm start" to load the data.
+Finally, rename the "data.template.jsonc" file to "data.json", fill it with the data you want to load, install the packages with "npm install" and run the project with "npm start" to load the data.
+
+Note: Upgrade firebase-admin version if needed.

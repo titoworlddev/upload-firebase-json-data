@@ -4,9 +4,12 @@
   "description": "Project to fill the Firebase databases with a json",
   "main": "upload_data.js",
   "scripts": {
-    "start": "node upload_data.js",
+    "start": "node ./upload_data.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cristian Arias",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^12.3.1"
+  }
 }
