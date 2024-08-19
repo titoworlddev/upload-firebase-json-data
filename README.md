@@ -9,4 +9,4 @@ You have to download a file with a structure like the "key_service_account.templ
 
 Once this is done, you put the file in your project renaming it with the name "key_service_account.json".
 
-Finally, you fill the "data.jsonc" file with the data you want to upload and run the project with "npm start" so that the data is uploaded.
+Finally, rename the "data.template.jsonc" file to "data.json", fill it with the data you want to load and run the project with "npm start" to load the data.

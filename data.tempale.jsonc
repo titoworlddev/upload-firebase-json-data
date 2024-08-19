@@ -1,0 +1,14 @@
+{
+  // Enter your data here
+
+  // The name of your collection is in the upload_data.js file in the variable collectionKey
+  // rename with your own name
+
+  // This will be the name of your document
+  "data": {
+    // Here the data of the document
+    "id": 1,
+    "title": "My title"
+    // more data ...
+  }
+}

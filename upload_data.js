@@ -1,6 +1,6 @@
 const admin = require('firebase-admin');
 const serviceAccount = require('./key_service_account.json');
-const data = require('./data.jsonc');
+const data = require('./data.json');
 
 const collectionKey = 'data'; //Name of the collection
 // Initialize Firebase
